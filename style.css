@@ -1,0 +1,262 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* overflow-x: hidden;*/
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 0px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 0px 50px;
+   
+}
+nav.navbar{
+    margin-bottom: 10px;
+}
+.logo-container img {
+    max-height:20px;
+}
+
+.cart-container img {
+    max-height: 20px;
+    margin-right: 10px;
+}
+#cart p{
+    margin:0;
+    padding:0
+}
+
+.header-text-container {
+    margin-top:10px;
+    background-image:url(kw-background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align:start;
+    /*width: 100%;
+   height: 600px;*/
+}
+
+.header-text-container h1 {
+    margin: 50px 0px 0px 100px;
+    font-size: 60px;
+    color:white;
+    padding:1%;
+}
+
+.header-text-container h5 {
+    margin: 50px 0px 0px 100px;
+    color:white;
+    font-size:30;
+    padding:1%;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.product-section {
+    margin-bottom: 40px;
+}
+
+.product-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-left: 20px;
+
+}
+
+.product-item {
+    
+    box-sizing: border-box;
+    text-align: center; 
+    width: 15%;
+}
+
+.product-item img.books {
+    width: 100%;
+    height: auto; 
+    max-height: 100%;
+    
+}
+
+.product-item img.games,
+.product-item img.crafts {
+    width: 105%; 
+    height: auto;
+    max-height: 100%;
+    margin-bottom: 20px;
+    margin-right:10px;
+}
+
+.product-item h3,
+.product-item p {
+    margin: 0;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+.product-item h4{
+    font-weight: normal;
+    font-size:10px;
+    color:#888;
+    text-align: left;
+}
+.buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.footer {
+    background-color:black;
+
+    display: flex;
+         
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    bottom: 0;
+    right: 50px;
+    width: 100%;
+    color:white;
+    padding: 10px 50px 20px 50px
+}
+
+.footer img {
+    max-height: 80px;
+    border-radius:100%;
+}
+
+.footer-details h3,
+.footer-details p {
+    margin: 0;
+}
+
+#book1.button.flex.space-evenly,
+#book2.button.flex.space-evenly,
+#book3.button.flex.space-evenly,
+#book4.button.flex.space-evenly,
+#book5.button.flex.space-evenly,
+#book6.button.flex.space-evenly{
+    background-color: blue;
+    color: white; 
+    padding:10px; 
+    border-radius: 10px; 
+    width:40px; 
+    height:15%; 
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#game1.button.flex.space-evenly,
+#game2.button.flex.space-evenly,
+#game3.button.flex.space-evenly,
+#game4.button.flex.space-evenly,
+#craft1.button.flex.space-evenly,
+#craft2.button.flex.space-evenly,
+#craft3.button.flex.space-evenly,
+#craft4.button.flex.space-evenly {
+    background-color: blue;
+    color: white; 
+    padding:10px; 
+    border-radius: 10px; 
+    width:40px; 
+    height:15%; 
+    position:relative; 
+    top:10px; 
+    right:-120px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    cursor: pointer;
+}
+
+
+#book1.button.flex.space-evenly h6,
+#book2.button.flex.space-evenly h6,
+#book3.button.flex.space-evenly h6,
+#book4.button.flex.space-evenly h6,
+#book5.button.flex.space-evenly h6,
+#book6.button.flex.space-evenly h6{
+    margin:0;
+}
+#game1.button.flex.space-evenly h6,
+#game2.button.flex.space-evenly h6,
+#game3.button.flex.space-evenly h6,
+#game4.button.flex.space-evenly h6,
+#craft1.button.flex.space-evenly h6,
+#craft2.button.flex.space-evenly h6,
+#craft3.button.flex.space-evenly h6,
+#craft4.button.flex.space-evenly h6 {
+    margin: 0; 
+    
+}
+
+
+
+#book1.button.flex.space-evenly img,
+#book2.button.flex.space-evenly img,
+#book3.button.flex.space-evenly img,
+#book4.button.flex.space-evenly img,
+#book5.button.flex.space-evenly img,
+#book6.button.flex.space-evenly img{
+    max-width: 20px;
+    height: auto; 
+    margin-left:5px; 
+}
+#game1.button.flex.space-evenly img,
+#game2.button.flex.space-evenly img,
+#game3.button.flex.space-evenly img,
+#game4.button.flex.space-evenly img,
+#craft1.button.flex.space-evenly img,
+#craft2.button.flex.space-evenly img,
+#craft3.button.flex.space-evenly img,
+#craft4.button.flex.space-evenly img {
+    max-width: 20px;
+    height: auto; 
+    margin-left:5px; 
+}
+/* mobile*/
+@media only screen and (min-width: 600px){
+    .product-item {
+        width: 90%;
+    }
+}
+/*for Desktop  */
+@media only screen and (min-width: 900px) {
+    
+.product-section.books .product-item {
+    width: calc(20% - 20px); 
+}
+
+.product-section.crafts .product-item {
+    width: calc(25% - 20px); 
+}
+
+
+.product-section.games .product-item {
+    width: calc(25% - 20px); 
+}
+}
